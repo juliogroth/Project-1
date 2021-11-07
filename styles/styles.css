@@ -6,8 +6,7 @@
 
     body{
         max-width: 960px;
-        margin: 0 auto;
-
+        margin: 0 auto; 
     }
 
     .menu{
@@ -25,6 +24,7 @@
     .menu ul li{
         width: 110px;
         float: left;
+        margin: 0 auto
     }
 
     .menu a{
@@ -71,6 +71,15 @@
         display: none;
     }
  
+    .logo{
+        width: 55px;
+        height: 55px;
+        border-radius: 1px;
+        background-image:url("../images/logo2.jpg");
+        background-repeat: no-repeat;
+        background-position-x: center;
+        background-position-y: center;
+    }
     
     @media(max-width:800px){
 
@@ -112,4 +121,44 @@
         }
     
 
+    }
+
+
+
+    h1{
+        color:rgb(7, 22, 105);
+        margin: 30px;
+    }
+    h2{
+        color:rgb(7, 22, 105);
+        margin: 30px;
+    }
+
+    img{
+        width: 80%;
+        border-radius: 10px;
+    }
+    
+    p{
+        width: 80%;
+        min-width: 200px;
+        text-align: justify;
+        margin: 10px;
+        border-top: solid 1px rgb(7, 22, 105);
+    }
+
+    .container{
+        border-top: dotted 1px rgb(7, 22, 105);
+        max-width: 960px;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .container div{
+        flex-grow: 1;
+        flex-shrink: 1;
+        flex-basis: 300px;
+        margin: 10px;
     }
